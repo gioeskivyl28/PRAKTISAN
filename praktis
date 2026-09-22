@@ -1,0 +1,5 @@
+age = int(input("Your age: "))
+is_employed = bool(eval(input("Are you emplyed? (True or False)")))
+credit_score = int(input("Your credit score:"))
+annual_income = float(input("What's your annual income?"))
+has_collateral = bool(eval(input("Do you have collateral?")))
