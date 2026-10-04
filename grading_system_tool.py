@@ -11,17 +11,17 @@ g8 = float(input("enter your grade in the subject PE1 -->"))
 g9 = float(input("enter your grade in the subject STS -->"))
 
 final_grade = g1 + g2 + g3 + g4 + g5 + g6 + g7 + g8 + g9 
-final_grade = final_grade / 9
-print("Your final grade is", final_grade)
+final_grade /= 9
+print(f"Your final grade is {final_grade}")
 
 result = ""
 if final_grade >= 90:
     result = "With honors"
-    print("The result of your grade is", result)
+    print(f"The result of your grade is {result}")
 elif final_grade >= 80 and final_grade < 90:
     result = "Passed"
-    print("The result of your grade is", result)
+    print(f"The result of your grade is {result}")
 else:
     result = "Failed"
-    print("The result of your grade is", result)
-print("Thank you for using our software Mr./ Ms.", name)
+    print(f"The result of your grade is {result}")
+print(f"Thank you for using our software Mr./Ms. {name}")
