@@ -1,5 +1,5 @@
 name = input("What is your name?")
-age = int(input(f"How old are you, {name}? "))
+age = int(input(f"How old are you,{name}? "))
 height = float(input("What is your height in centimeters? "))
 
 if height >= 120:
